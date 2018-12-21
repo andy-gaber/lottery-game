@@ -1,1 +1,3 @@
 # lottery-game
+
+Simulates a lotty game; the user will pick a three digit number, a bet type, and the winning number. The bet type can be "straight" where the player's number and winning number match identically (in order), or "box" where the player's number and winning number contian the same digits in any order. The user can wager any amount, and the payout is determined by the type of bet, and whether or not the user's number contains duplicate numbers. A straight bet pays 600:1 (actual odds 1/1000), a box bet made with three different numbers (e.g 123) pays 100:1 (actual odds 1/167), and a box bet made with duplicate numbers (e.g. 122) pays 200:1 (actual odds 1/333).
